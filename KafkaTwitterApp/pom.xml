@@ -42,7 +42,7 @@
 			<artifactId>spring-kafka-test</artifactId>
 			<scope>test</scope>
 		</dependency>
-		
+
 		<!-- https://mvnrepository.com/artifact/com.google.code.gson/gson -->
 		<dependency>
 			<groupId>com.google.code.gson</groupId>
@@ -54,6 +54,13 @@
 			<artifactId>elasticsearch-rest-high-level-client</artifactId>
 			<version>6.4.0</version>
 		</dependency>
+
+        <!--twitter dependency-->
+        <dependency>
+            <groupId>com.twitter</groupId>
+            <artifactId>hbc-core</artifactId> <!-- or hbc-twitter4j -->
+            <version>2.2.0</version> <!-- or whatever the latest version is -->
+        </dependency>
 	</dependencies>
 
 	<build>
